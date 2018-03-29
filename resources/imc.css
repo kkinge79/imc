@@ -1,32 +1,43 @@
 
 /* universal */
 body {
-    display: grid;
-    grid-template-columns: 1fr
+   background-color: #F0F0F0;
 }
 
 
 /*header*/
-
-.header {
+.flex-container {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #3477C8;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    color: #3477C8;
+    font-size: 20px;
 }
 
-.header img {
+header {
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+}
+header img {
     height: 50px;
-    padding: 3px;
+    padding: 5px 10px;
 }
-
-.header span {
-    font-size: 2.5rem;
-    justify-content: center
-
+ .name {
+    color: #3477C8;
+    font-size: 40px
 }
-
-
-
-
-
 /* banner */
 
 
