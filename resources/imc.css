@@ -1,26 +1,31 @@
 
 /* universal */
 body {
-   background-color: #F0F0F0;
+    height: auto;
+    margin: auto;
+    background-color: #F0F0F0;
 }
 
 
 /*header*/
+
 .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     border-bottom: 2px solid #3477C8;
 }
+
 nav {
     text-align: right;
     flex-grow: 1;
 }
+
 nav span {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 50px 20px 10px;
     color: #3477C8;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header {
@@ -29,24 +34,73 @@ header {
   z-index: 1;
   width: 100%;
   height: 69px;
+  background-color: #F0F0F0;
 }
+
 header img {
     height: 50px;
     padding: 5px 10px;
-}
+} 
+
  .name {
     color: #3477C8;
-    font-size: 40px
+    font-size: 40px;
 }
+
+
 /* banner */
+.banner {
+    background-image: url('external-content/banner-img.jpg'); 
+    display: block; 
+    background-repeat: no-repeat;
+    height: 35rem;  
+    background-size: cover;
+    
+    
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.make-ready {
+    position: relative;
+    background-color: #F0F0F0;
+    color: #3477C8;
+    font-weight: bold;
+    width: 25rem;
+    padding: 30px 30px;
+    top: 10rem;
+    left: 45rem;
+    font-size: 4rem;
+    text-align: center;
+}
 
 
+.button {
+    background-color: #3477C8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
 
 
 
 /*panel*/
 
-
+#panel {
+    height: 500px;
+    
+}
+.explain {
+    width: 300px;
+    opacity: 1;
+    margin: 40px; 
+    }
 
 
 /*info*/
