@@ -99,9 +99,23 @@ header img {
 .explain {
     width: 300px;
     opacity: 1;
-    margin: 40px; 
-    }
+    margin: 50px 90px; 
+    padding-right: 
 
+}
+.explain h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3477C8;
+}
+.explain p {
+    text-align: center;
+    padding-top: 10px;
+}
+.explain img {
+    height: 175px;
+    width: 100%;
+}
 
 /*info*/
 
