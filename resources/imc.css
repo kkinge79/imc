@@ -3,17 +3,19 @@
 body {
     height: auto;
     margin: auto;
-    background-color: #F0F0F0;
+    background-color: ;
 }
 
 
 /*header*/
 
+
+
+
 .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid #3477C8;
 }
 
 nav {
@@ -48,7 +50,11 @@ header img {
 }
 
 
+
 /* banner */
+
+
+
 .banner {
     background-image: url('external-content/banner-img.jpg'); 
     display: block; 
@@ -90,10 +96,17 @@ header img {
 
 }
 
+
+
+
 /*panel*/
 
+
+
+
 #panel {
-    height: 500px;
+    height: 430px;
+    background-color: #F0F0F0;
     
 }
 
@@ -121,8 +134,38 @@ header img {
     width: 100%;
 }
 
+
+
+
+
 /*info*/
 
+/*estimate message*/
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.estimate {
+    text-align: center;
+    margin: 0 auto;
+    width: 650px;
+}
+.estimate h1 {
+    font-size: 5rem;
+    padding: 5px;
+}
+.estimate h2 {
+    font-size: 2.75rem;
+    padding: 5px;
+}
+.estimate p {
+    font-size: 1.75rem;
+    padding: 10px;
+}
 
 /* contact form*/
 
@@ -144,7 +187,7 @@ header img {
 .container {
   max-width: 500px;
   width: 100%;
-  margin: 0 auto;;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -260,8 +303,18 @@ fieldset {
 }
 
 
-/* message */
-
-
-
 /*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
